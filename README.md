@@ -1,16 +1,35 @@
 # iammayron tap
 
-Homebrew tap for personal CLI tools.
+Homebrew tap for personal CLI tools and apps.
 
 ```bash
 brew tap iammayron/tap
-brew install inspectai
+```
+
+## Casks
+
+| Cask | What it is |
+|---|---|
+| `cantio` | Floating Spotify lyrics for the menu bar. Unsigned; install with `--no-quarantine`. |
+
+```bash
+brew install --cask --no-quarantine cantio
 ```
 
 ## Formulae
 
 | Formula | What it is |
 |---|---|
-| `inspectai` | Pin a live DOM node (selector, HTML, crop) for Grok / Claude / Codex. Prebuilt darwin/linux binaries from GitHub Releases. |
+| `inspectai` | Pin a live DOM node (selector, HTML, crop) for Grok / Claude / Codex. |
+| `bonk` | Yells "ow!" when you bonk the laptop (Apple Silicon accelerometer). |
+| `grove-street` | GTA San Andreas CJ voice notifications for AI coding agents. |
 
-Source: [iammayron/inspectai](https://github.com/iammayron/inspectai)
+```bash
+brew install inspectai
+brew install bonk
+brew install grove-street
+```
+
+Also: `hee-hee` cask (Michael Jackson dances across your screen).
+
+Cantio source: [iammayron/cantio](https://github.com/iammayron/cantio)
