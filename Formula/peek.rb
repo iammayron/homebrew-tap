@@ -10,21 +10,21 @@ class Peek < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/iammayron/peek/releases/download/v0.2.1/peek_darwin_arm64.tar.gz"
-      sha256 "f7839ea0908c5148e8d07a9ad1d5e1c58c6a4999209031952e4cad089f98e2d6"
+      url "https://github.com/iammayron/peek/releases/download/v0.2.2/peek_darwin_arm64.tar.gz"
+      sha256 "651d371179a1f3f5d2f3d332047fabcd8c05b4a9ad8f3761e104e99570db48f7"
     else
-      url "https://github.com/iammayron/peek/releases/download/v0.2.1/peek_darwin_amd64.tar.gz"
-      sha256 "1b5bd15911b644decffc496879961209b01527919d13ca42a8cc0e0fc4d779bb"
+      url "https://github.com/iammayron/peek/releases/download/v0.2.2/peek_darwin_amd64.tar.gz"
+      sha256 "7252c4404d32112d4760b52cce1282d2496522da3c0112601b1c14f96cd423c8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/iammayron/peek/releases/download/v0.2.1/peek_linux_arm64.tar.gz"
-      sha256 "991e3d66ebeec6f189d139fa4d44131e0411fbe1701b1e31af53e1fbe4799a0e"
+      url "https://github.com/iammayron/peek/releases/download/v0.2.2/peek_linux_arm64.tar.gz"
+      sha256 "170b281a7dba842699b9df42786e28a353bb3fc2f34ab8f0c45b1e7c7c1e23e9"
     else
-      url "https://github.com/iammayron/peek/releases/download/v0.2.1/peek_linux_amd64.tar.gz"
-      sha256 "7b372fbcafc27f068b12840d6bf395e2a567bd4578f5814a1221a1ba32d96366"
+      url "https://github.com/iammayron/peek/releases/download/v0.2.2/peek_linux_amd64.tar.gz"
+      sha256 "7729fc797315db3a7c6066f0a0f25bc5df6d66a71a520e3548aea463930f4d5b"
     end
   end
 
