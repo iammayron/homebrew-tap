@@ -10,7 +10,7 @@ cask "gabble" do
   # Unsigned (no Apple Developer ID). Install with --no-quarantine so
   # Gatekeeper doesn't block first launch.
   auto_updates false
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   depends_on arch: :arm64
 
   app "Gabble.app"
