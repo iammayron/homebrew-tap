@@ -20,12 +20,12 @@ brew install --cask --no-quarantine cantio
 
 | Formula | What it is |
 |---|---|
-| `inspectai` | Pin a live DOM node (selector, HTML, crop) for Grok / Claude / Codex. |
+| `peek` | Pin a live DOM node (selector, HTML, crop) for Grok / Claude / Codex. |
 | `bonk` | Yells "ow!" when you bonk the laptop (Apple Silicon accelerometer). |
 | `grove-street` | GTA San Andreas CJ voice notifications for AI coding agents. |
 
 ```bash
-brew install inspectai
+brew install peek
 brew install bonk
 brew install grove-street
 ```
