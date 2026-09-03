@@ -1,6 +1,6 @@
 cask "gabble" do
-  version "1.1.0"
-  sha256 "4d1085b261cfbd0cd0d05513b3ba562c28da97b1641f3bcfaa1a33a046aa393e"
+  version "1.2.0"
+  sha256 "ac6d05870825c782b3bfd566fc4a446935cbc48322432b8e7a649aedc957165e"
 
   url "https://github.com/iammayron/gabble/releases/download/v#{version}/Gabble-#{version}-arm64.dmg"
   name "Gabble"
