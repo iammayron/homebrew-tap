@@ -7,12 +7,16 @@ cask "pour" do
   desc "Menu bar Pomodoro for Todoist with a floating liquid-glass card"
   homepage "https://github.com/iammayron/pour"
 
-  # Unsigned (no Apple Developer ID). Install with --no-quarantine so
-  # Gatekeeper doesn't block first launch.
+  # Unsigned (no Apple Developer ID). Homebrew 6 dropped --no-quarantine,
+  # so the quarantine flag is stripped after install.
   auto_updates false
   depends_on macos: :sonoma
 
   app "Pour.app"
+
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/Pour.app"]
+  end
 
   zap trash: [
     "~/Library/Preferences/com.mayron.pour.plist",
@@ -20,9 +24,8 @@ cask "pour" do
   ]
 
   caveats <<~EOS
-    Pour is not signed with an Apple Developer ID. Install with:
-      brew install --cask --no-quarantine pour
-    If you already installed it and macOS blocks launch, run:
+    Pour is not signed with an Apple Developer ID. The quarantine flag is
+    removed on install. If macOS still blocks launch, run:
       xattr -dr com.apple.quarantine "#{appdir}/Pour.app"
   EOS
 end

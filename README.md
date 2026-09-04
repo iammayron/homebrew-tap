@@ -12,12 +12,12 @@ brew tap iammayron/tap
 |---|---|
 | `cantio` | Floating Spotify lyrics for the menu bar. Unsigned; install with `--no-quarantine`. |
 | `gabble` | Standalone desktop client for Google Chat. Apple Silicon. Unsigned; install with `--no-quarantine`. |
-| `pour` | Menu bar Pomodoro for Todoist with a floating liquid-glass card. Unsigned; install with `--no-quarantine`. |
+| `pour` | Menu bar Pomodoro for Todoist with a floating liquid-glass card. Unsigned; quarantine removed on install. |
 
 ```bash
 brew install --cask --no-quarantine cantio
 brew install --cask --no-quarantine gabble
-brew install --cask --no-quarantine pour
+brew install --cask pour
 ```
 
 ## Formulae
