@@ -4,6 +4,7 @@ Homebrew tap for personal CLI tools and apps.
 
 ```bash
 brew tap iammayron/tap
+brew trust iammayron/tap   # Homebrew 6 asks for this once for third-party taps
 ```
 
 ## Casks
