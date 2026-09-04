@@ -1,6 +1,6 @@
 cask "pour" do
   version "0.1.0"
-  sha256 "a4bb32ce045b969c3748569233413dd776f852dec2166e153fe8ed9fc8fcaa47"
+  sha256 "70565119ef7cb875b4b35fd7302f31c10c53a5f9020c1c66a0796427571cbacf"
 
   url "https://github.com/iammayron/pour/releases/download/v#{version}/Pour-#{version}.zip"
   name "Pour"
