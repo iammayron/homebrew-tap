@@ -19,6 +19,10 @@ cask "pour" do
   end
 
   zap trash: [
+    "~/Library/Application Support/Pour",
+    "~/Library/Caches/com.mayron.pour",
+    "~/Library/HTTPStorages/com.mayron.pour",
+    "~/Library/HTTPStorages/com.mayron.pour.binarycookies",
     "~/Library/Preferences/com.mayron.pour.plist",
     "~/Library/Saved Application State/com.mayron.pour.savedState",
   ]
