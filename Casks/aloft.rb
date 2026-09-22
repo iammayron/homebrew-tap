@@ -10,7 +10,7 @@ cask "aloft" do
   # Unsigned (no Apple Developer ID). Homebrew 6 dropped --no-quarantine,
   # so the quarantine flag is stripped after install.
   auto_updates false
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Aloft.app"
 
