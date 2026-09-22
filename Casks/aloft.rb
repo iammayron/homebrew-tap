@@ -1,6 +1,6 @@
 cask "aloft" do
-  version "1.0.1"
-  sha256 "112122193638979acaa61aedefc3633726c37c1c4804ab90fe10ecb28a35a5c4"
+  version "1.0.2"
+  sha256 "e4ce946e5de69d25f4a2e86441c76e35de14015c658282bfa634fe37602312d3"
 
   url "https://github.com/iammayron/aloft/releases/download/v#{version}/Aloft-#{version}.dmg"
   name "Aloft"
